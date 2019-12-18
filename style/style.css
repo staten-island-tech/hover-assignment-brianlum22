@@ -1,13 +1,19 @@
 html {
   padding: 0;
   margin: 0;
-  font-size: 62.5%;
+  font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+header {
+  font-size: 200%;
+  color: white;
+}
+
 body {
   text-align: center;
+  background-color: #F50057;
 }
 
 .gallery-parent {
@@ -42,10 +48,31 @@ body {
   left: 65%;
 }
 
+.yum4 {
+  top: 50rem;
+  left: 40%;
+}
+
+.gallery-parent2 {
+  margin: 0 auto;
+  height: 60rem;
+  width: 40rem;
+}
+
+.gallery2 {
+  top: 80rem;
+  left: 20%;
+}
+
+.yum5 {
+  top: 50rem;
+  left: -20%;
+}
+
 .pd6-photo:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
-  outline: 1rem solid #222;
+  outline: 1rem solid white;
   z-index: 2;
 }
 
