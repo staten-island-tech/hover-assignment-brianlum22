@@ -82,7 +82,7 @@ body {
 }
 
 .click-me {
-  background-color: orange;
+  background-color: #c2185b;
   height: 10rem;
   width: 30rem;
   border-radius: 15px;
@@ -99,5 +99,43 @@ body {
   background-color: orchid;
   -webkit-box-shadow: 10px 5px 5px black;
           box-shadow: 10px 5px 5px black;
+}
+
+.gallery-parent2 {
+  margin: 0 auto;
+  height: 80rem;
+  width: 40rem;
+}
+
+.gallery2 {
+  position: relative;
+}
+
+.pd6-photo2 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.yum5 {
+  -webkit-transition: all 1.0s;
+  transition: all 1.0s;
+  height: 10rem;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+}
+
+.yum5:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 /*# sourceMappingURL=style.css.map */

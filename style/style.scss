@@ -25,13 +25,13 @@ body {
 
 .gallery {
     position: relative;
-    }
+}
 
 .pd6-photo {
     height: 30rem;
     position: absolute;
     transition: all 0.3s;
-    }
+}
 
 .yum {
     top: 13rem;
@@ -74,7 +74,7 @@ body {
 }
 
 .click-me{
-    background-color: orange;
+    background-color: #c2185b;
     height: 10rem;
     width: 30rem;
     border-radius: 15px;
@@ -88,4 +88,34 @@ body {
     transition: all 1.0s;
     background-color: orchid;
     box-shadow: 10px 5px 5px black;
+}
+
+.gallery-parent2{
+    //text-align: center;
+    margin: 0 auto;
+    //width: 60rem;
+    height: 80rem;
+    width: 40rem;
+}
+
+.gallery2{
+    position: relative;
+}
+
+.pd6-photo2{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yum5{
+    transition: all 1.0s;
+    height: 10rem;
+    filter: grayscale(100);
+}
+
+.yum5:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
 }
