@@ -101,35 +101,17 @@ body {
           box-shadow: 10px 5px 5px black;
 }
 
-.gallery-parent2 {
-  margin: 0 auto;
-  height: 80rem;
-  width: 40rem;
-}
-
-.gallery2 {
+.ice-cream {
   position: relative;
-}
-
-.pd6-photo2 {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .yum5 {
   -webkit-transition: all 1.0s;
   transition: all 1.0s;
-  height: 10rem;
+  height: 30rem;
   -webkit-filter: grayscale(100);
           filter: grayscale(100);
+  top: 25rem;
 }
 
 .yum5:hover {
@@ -137,5 +119,34 @@ body {
           transform: scale(1.2);
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
+}
+
+.ice-cream2 {
+  position: relative;
+}
+
+.yum6 {
+  -webkit-transition: all 2.0s;
+  transition: all 2.0s;
+  height: 30rem;
+}
+
+.yum6:hover {
+  -webkit-transform: rotate(1080deg);
+          transform: rotate(1080deg);
+}
+
+.ice-cream3 {
+  position: relative;
+}
+
+.yum7 {
+  -webkit-transition: all 1.0s;
+  transition: all 1.0s;
+  height: 30rem;
+}
+
+.yum7:hover {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */
