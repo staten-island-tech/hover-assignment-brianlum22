@@ -90,11 +90,20 @@ body {
     box-shadow: 10px 5px 5px black;
 }
 
+.ice-cream-parent{
+//text-align: center;
+margin: 0 auto;
+//width: 60rem;
+height: 30rem;
+width: 15rem;
+}
+
 .ice-cream{
     position: relative;
 }
 
 .yum5{
+    top: 15rem;
     transition: all 1.0s;
     height: 30rem;
     filter: grayscale(100);
@@ -111,6 +120,7 @@ body {
 }
 
 .yum6{
+    top: 30rem;
     transition: all 2.0s;
     height: 30rem;
 }
@@ -124,10 +134,37 @@ body {
 }
 
 .yum7{
+    top: 45rem;
     transition: all 1.0s;
     height: 30rem;
 }
 
 .yum7:hover{
     opacity: 0;
+}
+
+.animation-parent{
+    width: 20rem;
+    height: 40rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation{
+    animation-duration: 2.0s;
+    animation-name: animation;
+}
+
+@keyframes animation{
+    from{
+        margin-left: 700%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }

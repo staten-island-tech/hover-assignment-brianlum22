@@ -101,11 +101,18 @@ body {
           box-shadow: 10px 5px 5px black;
 }
 
+.ice-cream-parent {
+  margin: 0 auto;
+  height: 30rem;
+  width: 15rem;
+}
+
 .ice-cream {
   position: relative;
 }
 
 .yum5 {
+  top: 15rem;
   -webkit-transition: all 1.0s;
   transition: all 1.0s;
   height: 30rem;
@@ -126,6 +133,7 @@ body {
 }
 
 .yum6 {
+  top: 30rem;
   -webkit-transition: all 2.0s;
   transition: all 2.0s;
   height: 30rem;
@@ -141,6 +149,7 @@ body {
 }
 
 .yum7 {
+  top: 45rem;
   -webkit-transition: all 1.0s;
   transition: all 1.0s;
   height: 30rem;
@@ -148,5 +157,49 @@ body {
 
 .yum7:hover {
   opacity: 0;
+}
+
+.animation-parent {
+  width: 20rem;
+  height: 40rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.animation {
+  -webkit-animation-duration: 2.0s;
+          animation-duration: 2.0s;
+  -webkit-animation-name: animation;
+          animation-name: animation;
+}
+
+@-webkit-keyframes animation {
+  from {
+    margin-left: 700%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes animation {
+  from {
+    margin-left: 700%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
