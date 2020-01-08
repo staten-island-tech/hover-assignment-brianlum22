@@ -5,14 +5,8 @@ html {
     box-sizing: border-box;
 }
 
-header{
-    font-size: 200%;
-    color: black;
-}
-
 body {
     text-align: center;
-    background-color: white;
     }
 
 .gallery-parent {
@@ -130,7 +124,7 @@ width: 15rem;
 }
 
 .ice-cream3{
-    position: relative;
+    position: absolute;
 }
 
 .yum7{
@@ -143,7 +137,7 @@ width: 15rem;
     opacity: 0;
 }
 
-.animation-parent{
+.funky-animation-parent{
     width: 20rem;
     height: 40rem;
     margin: 0 auto;
@@ -152,19 +146,24 @@ width: 15rem;
     justify-content: center;
 }
 
-.animation{
-    animation-duration: 2.0s;
-    animation-name: animation;
+.funky-animation{
+    background-color: #c2185b;
+    height: 10rem;
+    width: 30rem;
+    border-radius: 15px;
+    font-size: 5rem;
+    text-decoration: none;
+    top: 5rem;
 }
 
-@keyframes animation{
+@keyframes funky-animation{
     from{
-        margin-left: 700%;
+        margin-left: 50%;
         width: 300%;
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 100%;
         width: 100%;
     }
 }
