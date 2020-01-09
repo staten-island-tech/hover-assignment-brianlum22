@@ -8,6 +8,7 @@ html {
 
 body {
   text-align: center;
+  background-color: black;
 }
 
 .gallery-parent {
@@ -153,7 +154,7 @@ body {
   opacity: 0;
 }
 
-.funky-animation-parent {
+.animation-parent {
   width: 20rem;
   height: 40rem;
   margin: 0 auto;
@@ -168,17 +169,16 @@ body {
           justify-content: center;
 }
 
-.funky-animation {
-  background-color: #c2185b;
-  height: 10rem;
-  width: 30rem;
-  border-radius: 15px;
-  font-size: 5rem;
-  text-decoration: none;
-  top: 5rem;
+.animation {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-name: animation;
+          animation-name: animation;
+  top: 25rem;
+  right: -20rem;
 }
 
-@-webkit-keyframes funky-animation {
+@-webkit-keyframes animation {
   from {
     margin-left: 50%;
     width: 300%;
@@ -189,7 +189,7 @@ body {
   }
 }
 
-@keyframes funky-animation {
+@keyframes animation {
   from {
     margin-left: 50%;
     width: 300%;

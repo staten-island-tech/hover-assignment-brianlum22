@@ -7,7 +7,8 @@ html {
 
 body {
     text-align: center;
-    }
+    background-color: black;
+}
 
 .gallery-parent {
     //text-align: center;
@@ -137,7 +138,7 @@ width: 15rem;
     opacity: 0;
 }
 
-.funky-animation-parent{
+.animation-parent{
     width: 20rem;
     height: 40rem;
     margin: 0 auto;
@@ -146,17 +147,14 @@ width: 15rem;
     justify-content: center;
 }
 
-.funky-animation{
-    background-color: #c2185b;
-    height: 10rem;
-    width: 30rem;
-    border-radius: 15px;
-    font-size: 5rem;
-    text-decoration: none;
-    top: 5rem;
+.animation{
+   animation-duration: 2.5s;
+   animation-name: animation;
+   top: 25rem;
+   right: -20rem;
 }
 
-@keyframes funky-animation{
+@keyframes animation {
     from{
         margin-left: 50%;
         width: 300%;
